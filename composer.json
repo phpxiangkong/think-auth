@@ -1,20 +1,22 @@
 {
     "name": "kongxiang/think-auth",
     "description": "thinkphp auth identity",
-    "type": "library",
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Kongxiang\\ThinkAuth\\": "src/"
-        }
-    },
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "version": "1.0",
     "authors": [
         {
             "name": "phpxiangkong",
             "email": "phpxiangkong@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "5.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kongxiang\\auth\\": "src/"
+        }
+    }
 }
